@@ -10,7 +10,6 @@ Source0:	ftp://ftp.asterisk.org/pub/telephony/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://www.asterisk.org/
 BuildRequires:	gtk+-devel >= 1.0.6
-Requires:	asterisk
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_gastmandir	/usr/share/gastman
