@@ -1,0 +1,28 @@
+--- ./Makefile.org	Sun Sep 15 02:06:51 2002
++++ ./Makefile	Tue May 13 15:54:08 2003
+@@ -1,4 +1,7 @@
+ TARGET=gastman
++SBINDIR=/usr/sbin
++DATADIR=/usr/share
++ICONSDIR=$(DATADIR)/gastman/icons
+ #
+ # For GTK 2.0
+ #
+@@ -20,13 +23,13 @@
+ all: $(TARGET)
+ 
+ install: gastman
+-	mkdir -p /usr/sbin
++	mkdir -p $(DESTDIR)$(SBINDIR)
+ 	for x in $(TARGET); do \
+-		install -m 755 $$x /usr/sbin/gastman; \
++		install -m 755 $$x $(DESTDIR)$(SBINDIR); \
+ 	done ; \
+-	mkdir -p /usr/share/gastman/icons
++	mkdir -p $(DESTDIR)$(ICONSDIR)
+ 	for x in art/*.xpm; do \
+-		install -m 644 $$x /usr/share/gastman/icons/`basename $$x`; \
++		install -m 644 $$x $(DESTDIR)$(ICONSDIR)/`basename $$x`; \
+ 	done
+ clean:
+ 	rm -f *.o gastman
