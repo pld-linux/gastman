@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_gastmandir	/usr/share/gastman
 
 %description
-Gtk ASTerisk MANager
+Gtk ASTerisk MANager.
 
 %prep
 %setup -q
