@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.asterisk.org/pub/telephony/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	e62a7b4c4161d25c8b7b54fe875d5f5c
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://www.asterisk.org/
 BuildRequires:	gtk+-devel >= 1.0.6
