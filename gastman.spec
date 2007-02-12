@@ -1,7 +1,7 @@
 # TODO:
 # - desktop file (vfolder? how to make it?)
 Summary:	GTK+ ASTerisk MANager
-Summary(pl):	Gtk ASTerisk MANager - zarz±dca Asteriska oparty na GTK+
+Summary(pl.UTF-8):   Gtk ASTerisk MANager - zarzÄ…dca Asteriska oparty na GTK+
 Name:		gastman
 Version:	0.2.1
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GTK+ ASTerisk MANager.
 
-%description -l pl
-GTK+ ASTerisk MANager - zarz±dca Asteriska oparty na GTK+.
+%description -l pl.UTF-8
+GTK+ ASTerisk MANager - zarzÄ…dca Asteriska oparty na GTK+.
 
 %prep
 %setup -q
