@@ -1,7 +1,7 @@
 # TODO:
 # - desktop file (vfolder? how to make it?)
 Summary:	GTK+ ASTerisk MANager
-Summary(pl.UTF-8):   Gtk ASTerisk MANager - zarządca Asteriska oparty na GTK+
+Summary(pl.UTF-8):	Gtk ASTerisk MANager - zarządca Asteriska oparty na GTK+
 Name:		gastman
 Version:	0.2.1
 Release:	1
